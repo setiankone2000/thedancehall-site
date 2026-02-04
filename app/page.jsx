@@ -20,7 +20,18 @@ export default function Home() {
           marginBottom: "80px",
         }}
       >
-        <Image src="/logo.svg" alt="The Dancehall Logo" width={180} height={90} />
+        <Image
+  src="/logo.png"
+  alt="The Dancehall Logo"
+  width={170}
+  height={85}
+  style={{
+    background: "white",
+    padding: "10px 14px",
+    borderRadius: "10px",
+    boxShadow: "0 0 20px rgba(255,212,0,0.35)",
+  }}
+/>
 
         <button
           style={{
