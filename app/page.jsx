@@ -13,14 +13,13 @@ export default function Home() {
     >
       {/* HEADER */}
       <header
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-between",
-          minHeight: "90px",
-          marginBottom: "80px",
-        }}
-      >
+  style={{
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    marginBottom: "80px",
+  }}
+>
 <div
   style={{
     display: "inline-block",
@@ -33,18 +32,21 @@ export default function Home() {
     e.currentTarget.style.transform = "scale(1)";
   }}
 >
+  <div
+  style={{
+    background: "white",
+    padding: "8px 12px",
+    borderRadius: "12px",
+    boxShadow: "0 0 18px rgba(255,212,0,0.35)",
+    display: "inline-flex",
+    alignItems: "center",
+  }}
+>
   <Image
     src="/logo.svg"
     alt="The Dancehall Logo"
-    width={170}
-    height={85}
-    style={{
-      background: "white",
-      padding: "10px 14px",
-      borderRadius: "10px",
-      boxShadow: "0 0 20px rgba(255,212,0,0.35)",
-      transition: "all 0.3s ease",
-    }}
+    width={150}
+    height={75}
   />
 </div>
 
