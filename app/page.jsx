@@ -21,19 +21,32 @@ export default function Home() {
           marginBottom: "80px",
         }}
       >
-<Image
-  src="/logo.svg"
-  alt="The Dancehall Logo"
-  width={120}
-  height={60}
-  priority
+<div
   style={{
-    background: "white",
-    padding: "8px 12px",
-    borderRadius: "10px",
-    boxShadow: "0 0 12px rgba(255,212,0,0.35)"
+    display: "inline-block",
+    transition: "all 0.3s ease",
   }}
-/>
+  onMouseEnter={(e) => {
+    e.currentTarget.style.transform = "scale(1.05)";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.transform = "scale(1)";
+  }}
+>
+  <Image
+    src="/logo.svg"
+    alt="The Dancehall Logo"
+    width={170}
+    height={85}
+    style={{
+      background: "white",
+      padding: "10px 14px",
+      borderRadius: "10px",
+      boxShadow: "0 0 20px rgba(255,212,0,0.35)",
+      transition: "all 0.3s ease",
+    }}
+  />
+</div>
 
         <button
           style={{
