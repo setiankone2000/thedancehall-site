@@ -21,7 +21,7 @@ export default function Home() {
         }}
       >
 <Image
-  src="/logo.png"
+  src="/logo.svg"
   alt="The Dancehall Logo"
   width={170}
   height={85}
