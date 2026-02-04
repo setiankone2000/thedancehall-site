@@ -23,13 +23,14 @@ export default function Home() {
 <Image
   src="/logo.svg"
   alt="The Dancehall Logo"
-  width={170}
-  height={85}
+  width={140}
+  height={70}
+  priority
   style={{
     background: "white",
-    padding: "10px 14px",
-    borderRadius: "10px",
-    boxShadow: "0 0 20px rgba(255,212,0,0.35)",
+    padding: "12px 16px",
+    borderRadius: "12px",
+    boxShadow: "0 0 18px rgba(255,212,0,0.4)"
   }}
 />
 
