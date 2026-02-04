@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 
 export default function Home() {
@@ -45,9 +46,9 @@ onMouseLeave={(e) =>
   <div
   style={{
     background: "white",
-    padding: "6px 10px",
-    borderRadius: "10px",
-    boxShadow: "0 0 12px rgba(255,212,0,0.25)",
+    padding: "12px 18px",
+    borderRadius: "14px",
+    boxShadow: "0 0 25px rgba(255,212,0,0.35)",
     display: "inline-flex",
     alignItems: "center",
     cursor: "pointer",
@@ -57,8 +58,8 @@ onMouseLeave={(e) =>
   <Image
     src="/logo.svg"
     alt="The Dancehall Logo"
-    width={135}
-    height={65}
+    width={155}
+    height={75}
   />
 </div>
 
