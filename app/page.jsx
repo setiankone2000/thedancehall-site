@@ -18,12 +18,21 @@ export default function Home() {
     alignItems: "center",
     justifyContent: "space-between",
     marginBottom: "80px",
+    paddingTop: "10px",
   }}
 >
 <div
   style={{
     display: "inline-block",
     transition: "all 0.3s ease",
+    onMouseEnter={(e) =>
+  (e.currentTarget.style.boxShadow =
+    "0 0 18px rgba(255,212,0,0.45)")
+}
+onMouseLeave={(e) =>
+  (e.currentTarget.style.boxShadow =
+    "0 0 12px rgba(255,212,0,0.25)")
+}
   }}
   onMouseEnter={(e) => {
     e.currentTarget.style.transform = "scale(1.05)";
@@ -35,18 +44,20 @@ export default function Home() {
   <div
   style={{
     background: "white",
-    padding: "8px 12px",
-    borderRadius: "12px",
-    boxShadow: "0 0 18px rgba(255,212,0,0.35)",
+    padding: "6px 10px",
+    borderRadius: "10px",
+    boxShadow: "0 0 12px rgba(255,212,0,0.25)",
     display: "inline-flex",
     alignItems: "center",
+    cursor: "pointer",
+    transition: "all 0.25s ease",
   }}
 >
   <Image
     src="/logo.svg"
     alt="The Dancehall Logo"
-    width={150}
-    height={75}
+    width={135}
+    height={65}
   />
 </div>
 
