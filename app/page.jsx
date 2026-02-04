@@ -17,6 +17,7 @@ export default function Home() {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
+          minHeight: "90px",
           marginBottom: "80px",
         }}
       >
